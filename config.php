@@ -6,10 +6,10 @@
 $host = 'https://ambiente-php.saveincloud.com/';
 
 // db
-$db_name = 'cadastro';
-$db_host = '10.100.38.18';
-$db_user = 'admin-9259900';
-$db_pass = 'oLXO1ViQe8';
+$db_name = 'coloque aqui nome do seu banco de dados';
+$db_host = 'coloque o host do seu banco';
+$db_user = 'coloque aqui seu usuário';
+$db_pass = 'coloque aqui sua senha';
 
 try {
   $conn = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
